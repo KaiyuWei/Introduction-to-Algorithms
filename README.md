@@ -1,4 +1,4 @@
-Realization of basic algorithms in the book "Introduction to Algorithm" in Python
+Realization of basic algorithms in the book "Python data structures" by Kenneth A. Lambert
 
 
 <!---
