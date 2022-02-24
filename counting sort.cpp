@@ -1,6 +1,13 @@
 #including <vector>
 #including <iostream>
 
+/*
+* Counting sort assume that each of the n input elements is an integer in the range 0 to k. 
+    When k = O(n), the sorting runs in Θ(n) time.
+* Counting sort determines for each input element x the number of elements less than x. 
+    It uses this information to place element x directly into its position in the output array
+ */
+
 //sort the vector descendingly
 std::vector<int> desCountingSort(std::vector<int> A, int k) {
     std::vector<int> C(k + 1);
